@@ -54,10 +54,7 @@ function newTask() {
 }
 
 document.addEventListener('keydown', event =>{
-  if (event.keyCode === 32){
-      newTask();
-  }
-  else if (event.keyCode === 13){
+  if (event.keyCode === 13){
     newTask();
 }
   
